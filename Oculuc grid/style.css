@@ -7,6 +7,7 @@
 
 body {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .header {
@@ -216,7 +217,7 @@ ul li {
 .oculus span {
     position: absolute;
     font-family: 'Inter', sans-serif;
-    font-size: 400px;
+    font-size: 360px;
     font-weight: 700;
     opacity: 0.1;
     background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
