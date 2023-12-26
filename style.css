@@ -5,9 +5,11 @@
 }
 
 ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 ul li {
@@ -15,4 +17,5 @@ ul li {
     font-size: 30px;
     font-weight: bold;
     gap: 20px;
+    list-style-type: none;
 }
