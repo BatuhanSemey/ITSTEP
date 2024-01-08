@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: aquamarine;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container div {
+    background-color: #fff;
+    width: 21.875vw;
+    margin-top: 5%;
+}
+
+img {
+    width: 21.875vw;
+}

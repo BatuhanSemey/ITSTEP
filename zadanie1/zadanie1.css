@@ -1,0 +1,16 @@
+.rj {
+    text-align: center;
+    color: #7B68EE;
+}
+
+h5,pre, p {
+    margin-left: 15%;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #778899;
+}

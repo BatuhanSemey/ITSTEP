@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    overflow: scroll;
+    height: 300px;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+}
+
+table thead tr {
+    background-color: aqua;
+    
+}
+
+table tbody tr td:first-child {
+    background-color: aqua;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: rgb(187, 187, 187);
+}

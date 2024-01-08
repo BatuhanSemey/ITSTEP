@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background: linear-gradient(to left, #cc0000 0%, #6666ff 109%);
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+    color: blue;
+    text-decoration:underline
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 11vw;
+    height: 15vh;
+}
+
+
+.main_text,li {
+    display: flex;
+    list-style-type: none;
+    margin-right: 5vw;
+}
+
+.block_texts, a {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+
+
+
+
+
+

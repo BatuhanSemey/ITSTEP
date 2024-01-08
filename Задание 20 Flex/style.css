@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main {
+    height: 100vh;
+}
+
+.title_content {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    background-color: rgb(5, 138, 120);
+    color: #fff;
+}
+
+.main div:first-child h1 {
+    padding-left: 5%;
+}
+
+.content {
+    height: 90%;
+    background-color: rgb(4, 190, 166);
+    display: flex;
+    overflow-x: auto;
+}
+
+.board {
+    min-width: 300px;
+    height: 600px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    margin: 20px 0 20px 20px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.board_details {
+    width: 90%;
+    margin-top: 5%;
+}
+
+.message {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.account_message {
+    width: 90%;
+    padding-top: 5%;
+}
+
+.account_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.account_details_total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account_details_total img,
+.account_details_total span {
+    margin-left: 3%;
+}
+
+.title_board {
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;700&family=Montserrat&family=Odibee+Sans&family=Open+Sans&family=Prompt&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0px 8.59375vw;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.navbar li {
+    padding-right: 2.6041666666666665vw;
+    list-style-type: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-family: 'Odibee Sans', sans-serif;
+    font-size: 29px;
+}
+
+.search-element input {
+    width: 15.989583333333334vw;
+    height: 3.791982665222102vh;
+    border-radius: 50px;
+    border: 1px solid bisque;
+    padding-left: 10px;
+    background-color: #fff;
+}
+
+.search-element input:focus {
+    outline: none;
+}
+
+.search-icon {
+    position: relative;
+    right: 32px;
+    top: 2px;
+}
+
+.icon1 {
+    height: 28px;
+    width: 28px;
+}
+
+.icon2 {
+    position: relative;
+    right: 20px;
+    bottom: 6px;
+}
+
+.auth a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.auth a:hover {
+    color: #551A8B;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+    color: #551A8B;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.c_text1 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: 3.15px;
+}
+
+.c_text1 span {
+    color: #FF5C00;
+}
+
+.c_text2 {
+    color: #A8A8A8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    padding-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.btn {
+    margin-right: 20px;
+    width: 150px;
+    height: 44px;
+    border-radius: 6px;
+    background: #544CAC;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.20);
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.buttons span {
+    font-family: Open Sans;
+    font-size: 16px;
+}
+
+
+
+.circle-1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 420px;
+    bottom: 150px;
+    z-index: -1;
+}
+
+.circle-2 {
+    position: relative;
+    right: 440px;
+    bottom: 310px;
+}
+
+.circle-3 {
+    position: relative;
+    left: 590px;
+    bottom: 190px;
+}
+
+.circle-4 {
+    position: relative;
+    left: 800px;
+    bottom: 230px;
+    z-index: -2;
+}
+
+.circle-5 {
+    position: relative;
+    right: 420px;
+    bottom: 260px;
+}
+
+.circle-6 {
+    position: relative;
+    right: 460px;
+    bottom: 380px;
+}
+
+.square-1 {
+    position: relative;
+    left: 620px;
+    bottom: 490px;
+}
+
+.circle-7 {
+    position: relative;
+    left: 630px;
+    bottom: 335px;
+}
+
+.circle-8 {
+    position: relative;
+    left: 670px;
+    bottom: 480px;
+}
+
+.circle-9 {
+    position: relative;
+    left: 650px;
+    bottom: 580px;
+}
+
+.square-2 {
+    position: relative;
+    left: 707px;
+    bottom: 530px;
+}
+
+.circle-10 {
+    position: relative;
+    left: 670px;
+    bottom: 515px;
+}
+
+.circle-11 {
+    position: relative;
+    left: 670px;
+    bottom: 470px;
+}
+
+.circle-12 {
+    position: relative;
+    left: 680px;
+    bottom: 430px;
+}
+
+.circle-13 {
+    position: relative;
+    left: 650px;
+    bottom: 470px;
+}
+
+.circle-14 {
+    position: relative;
+    left: 625px;
+    bottom: 400px;
+}
+
+.circle-15 {
+    position: relative;
+    left: 670px;
+    bottom: 500px;
+}
+
+.circle-16 {
+    position: relative;
+    left: 620px;
+    bottom: 550px;
+}
+
+.square-3 {
+    position: relative;
+    left: 600px;
+    bottom: 385px;
+}
+
+.circle-17 {
+    position: relative;
+    left: 570px;
+    bottom: 250px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

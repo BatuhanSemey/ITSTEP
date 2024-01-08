@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <fieldset>
+            <legend>CREDIT CARD DETAILS</legend>
+            <div class="main_details">
+                
+                <label for="c_number">Card Number</label><br><br>
+                <input type="number" id="c_number" min="16" max="16" style="width: 200px; height: 20px;" placeholder="1234 5678 9012 3456"><br><br>
+                <label for="c_name">Name On Card</label><br><br>
+                <input type="text" id="c_name" style="width: 200px; height: 20px;" placeholder="Name Surname">
+            </div>
+            <div class="other_details">
+                <div>
+                    <label for="c_date">Expiry Date</label><br><br>
+                    <input type="month" id="c_date" style="height: 20px;">
+                </div>
+                <div class="cvv">
+                    <label for="c_cvv">CVV / CVN</label><br><br>
+                    <input type="password" id="c_cvv" style="width: 50px; height: 20px;" maxlength="3" placeholder="***">
+                </div>
+            </div>
+            <img src="moon_flag.png" alt="">       
+        </fieldset>   
+    </div>
+    
+</body>
+</html>

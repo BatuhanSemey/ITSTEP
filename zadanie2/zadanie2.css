@@ -1,0 +1,175 @@
+div {
+    margin-left: 10px;
+}
+
+.main_div {
+    display: flex;
+}
+
+.main_div2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.card1 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 100px;
+    height: 100px;
+}
+
+.number_two {
+    padding-left: 10px;
+    color: black;
+    font-size: 5em;
+}
+
+.img1 {
+    padding-top: 25px;
+    height: 40px;
+    width: 40px;
+}
+
+.card2 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 100px;
+    height: 100px;
+}
+
+.number_nine {
+    padding-left: 10px;
+    color: red;
+    font-size: 5em;
+}
+
+.card3 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 100px;
+    height: 100px;
+}
+
+.number_six {
+    padding-left: 10px;
+    color: red;
+    font-size: 5em;
+}
+
+.card4 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 110px;
+    height: 100px;
+}
+
+.text_a {
+    padding-left: 10px;
+    color: red;
+    font-size: 5em;
+}
+
+.card5 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 110px;
+    height: 100px;
+}
+
+.text_q {
+    padding-left: 10px;
+    color: black;
+    font-size: 5em;
+}
+
+.card6 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 100px;
+    height: 100px;
+}
+
+.text_j {
+    padding-left: 10px;
+    color: black;
+    font-size: 5em;
+}
+
+.card7 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 100px;
+    height: 100px;
+}
+
+.number_three {
+    padding-left: 10px;
+    color: red;
+    font-size: 5em;
+}
+
+.card8 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 110px;
+    height: 100px;
+}
+
+.text_a_2 {
+    padding-left: 10px;
+    color: black;
+    font-size: 5em;
+}
+
+.card9 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 130px;
+    height: 100px;
+}
+
+.number_ten {
+    padding-left: 10px;
+    color: black;
+    font-size: 5em;
+}
+
+.card10 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 105px;
+    height: 100px;
+}
+
+.text_k {
+    padding-left: 10px;
+    color: red;
+    font-size: 5em;
+}
+
+.card11 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 100px;
+    height: 100px;
+}
+
+.number_eith {
+    padding-left: 10px;
+    color: black;
+    font-size: 5em;
+}
+
+.card12 {
+    display: flex;
+    background-color: #FFA07A;
+    width: 100px;
+    height: 100px;
+}
+
+.number_three_2 {
+    padding-left: 10px;
+    color: red;
+    font-size: 5em;
+}
+

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.t_tr th {
+    background-color: rgb(245, 204, 69);
+    border: 1px dashed rgb(126, 124, 124);
+    padding: 10px 5px;
+    
+}
+
+.table_1 table {
+    border: 1px solid rgb(126, 124, 124);
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.t_body tr {
+    border: 1px dashed rgb(126, 124, 124);
+}
+
+
+.t_tr td {
+    border: 1px dashed rgb(126, 124, 124);
+    padding: 10px 5px;
+}
+
+.total {
+    text-align: right;
+}
+
+.table_2 table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.th_tr th {
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+
+.tb_tr td {
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+
+.number {
+    text-align: center;
+}

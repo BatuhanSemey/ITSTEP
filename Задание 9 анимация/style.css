@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(19, 136, 97);
+}
+
+.center {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgb(19, 136, 97);
+    border-radius: 50%;
+    border: 2px solid rgb(19, 136, 97);
+}
+
+
+.second {
+    position: absolute;
+    width: 80px;
+    border: 2px solid rgb(19, 136, 97);
+    animation-name: second;
+    animation-duration: 60s;
+    animation-timing-function: steps(1600);
+    animation-iteration-count: infinite;
+    transform-origin: 0 center;
+}
+
+@keyframes second {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.time {
+    position: absolute;
+    width: 70px;
+    border: 2px solid rgb(19, 136, 97);
+    animation-name: time;
+    animation-duration: 3600s;
+    animation-timing-function: steps(3600);
+    animation-iteration-count: infinite;
+    transform-origin: 0 center;
+}
+
+@keyframes time {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hour {
+    position: absolute;
+    width: 60px;
+    border: 2px solid rgb(19, 136, 97);
+    animation-name: hour;
+    animation-duration: 86400s;
+    animation-timing-function: steps(86400);
+    animation-iteration-count: infinite;
+    transform-origin: 0 center;
+}
+
+@keyframes hour {
+    100% {
+        transform: rotate(360deg);
+    }
+}

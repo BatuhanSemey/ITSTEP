@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.subtitle {
+    font-size: 30px;
+    color: #12ac11;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+.list {
+    font-size: 20px;
+    color: #444;
+    font-style: italic;
+    list-style-type: square;
+}
+
+.lorem {
+    width: 100px;
+    line-height: 2;
+}
+
+.img {
+    width: 100px;
+}
+
+.table td {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.table th {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.table {
+    border-collapse:separate;
+    width: 500px;
+}
+
+.table thead {
+    background-color: #f0f1f4;
+}
+
+.table tfoot {
+    background-color: #121212;
+    color: #fff;
+    text-align: right;
+}
+
+.presentation {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
