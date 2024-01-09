@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&family=Montserrat&family=Odibee+Sans&family=Open+Sans&family=Poppins&family=Prompt&family=Red+Hat+Text&family=Risque&family=Varela&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans&family=Noto+Sans+Georgian&family=Noto+Serif+Display:wght@300;400&display=swap');
 
 * {
     margin: 0;
@@ -11,20 +11,25 @@ body {
 }
 
 aside {
-    width: 10%;
+    width: 50px;
     min-height: 100%;
     position: fixed;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right, #ffffff 0%, #66ccff 100%);
+    background: rgb(119, 119, 119);
+    font-family: 'Fira Sans', sans-serif;
     overflow-y: scroll;
-    font-family: 'Varela', sans-serif;
-    color: black;
-    font-weight: bold;
+    color: aliceblue;
+    transition: .5s;
 }
 
 aside::-webkit-scrollbar {
     display: none;
+}
+
+aside:hover {
+    transition: 1s;
+    width: 200px;
 }
 
 aside span {
@@ -49,17 +54,22 @@ aside ul li {
 }
 
 aside ul li:hover {
-    
     transition: 1s;
-    background-color: aliceblue;
+    background-color: rgb(58, 57, 57);
     
 }
 
 a {
-    font-family: 'Varela', sans-serif;
-    color: black;
+    color: aliceblue;
     text-decoration: none;
     font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    display: none;
+}
+
+aside:hover a {
+    display: block;
 }
 
 main {
@@ -67,4 +77,9 @@ main {
     background-image: url(main_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
 }
