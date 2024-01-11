@@ -646,7 +646,7 @@ header .menu__btn {
     display: none;
 }
 
-@media(max-width: 420px) {
+@media(max-width: 500px) {
     .top_nav {
         display: none;
     }
