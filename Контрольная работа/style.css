@@ -646,6 +646,10 @@ header .menu__btn {
     display: none;
 }
 
+.search_input img {
+    display: none;
+}
+
 @media(max-width: 500px) {
     .top_nav {
         display: none;
@@ -682,13 +686,53 @@ header .menu__btn {
         width: 100%;
     }
 
-    .main .popular_goods,
-    .main .popular_goods_sale,
-    .main .sales,
-    footer {
+    .search_input {
+        background-color: #F0F0F4;
+    }
+
+    .search_input button {
         display: none;
     }
     
+    .search_input input {
+        width: 100%;
+    }
+
+    .search_input img {
+        display: block;
+    }
+
+    .auto_equipment {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .transport {
+        width: 100%;
+    }
+    
+    .popular_goods_menu {
+        overflow-x: auto;
+    }
+
+    .popular_goods h1 {
+        text-align: center;
+    }
+
+    .popular_goods_menu div {
+        margin: 15px 0;
+    }
+
+    .popular_goods_sale {
+        display: grid;
+        grid-template-rows: repeat(6, auto);
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .popular_good_sale_block {
+        min-width: 100%;
+    }
 }
 
 /* Стили для бургера */
