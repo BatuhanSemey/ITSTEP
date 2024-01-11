@@ -12,7 +12,10 @@
     <div class="all_content">
         <div class="centre_block">
             <header>
-                <ul>
+                <a class="menu__btn" href="#">
+                    <span></span>
+                </a>
+                <ul class="top_nav">
                     <li>Магазины</li>
                     <li>Акции</li>
                     <li>Доставка и оплата</li>
@@ -423,5 +426,11 @@
         </div>
     </footer>
 </body>
+<script>
+    const menu = document.querySelector('.menu__btn')
+    menu.addEventListener('click', () => {
+        menu.classList.toggle('active')
+    })
+</script>
 
 </html>

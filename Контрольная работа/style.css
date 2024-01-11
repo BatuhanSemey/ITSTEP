@@ -641,3 +641,107 @@ footer ul li:hover {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
 }
+
+header .menu__btn {
+    display: none;
+}
+
+@media(max-width: 420px) {
+    .top_nav {
+        display: none;
+    }
+
+    .header_logo div {
+        display: none;
+    }
+
+    .location {
+        display: none;
+    }
+
+    header .menu__btn {
+        display: block;
+    }
+
+    .menu {
+        font-size: 14px;
+        overflow-x: auto;
+        gap: 10px;
+    }
+
+    .slider {
+        flex-direction: column;
+    }
+
+    .search_text a {
+        font-size: 12px;
+    }
+
+    .slider_img_2,
+    .slider_img-2_3-element {
+        width: 100%;
+    }
+
+    .main .popular_goods,
+    .main .popular_goods_sale,
+    .main .sales,
+    footer {
+        display: none;
+    }
+    
+}
+
+/* Стили для бургера */
+
+
+header a {
+    /* background-color: aliceblue; */
+    display: block;
+    width: 25px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+header a span,
+header a span::before,
+header a span::after {
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    margin-top: -1px;
+    margin-left: -10px;
+    border-radius: 20px;
+}
+
+header a span::before,
+header a span::after {
+    content: '';
+    transition: .2s;
+}
+
+header a span::before {
+    transform: translateY(-5px);
+}
+
+header a span::after {
+    transform: translateY(5px);
+}
+
+header .active span::before {
+    transform: rotate(-45deg);
+}
+
+header .active span::after {
+    transform: rotate(45deg);
+}
+
+header .active span {
+    height: 0;
+}
+
+
+/* Конец стилей для бургера */
