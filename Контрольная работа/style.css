@@ -774,7 +774,7 @@ header .menu__btn {
     .sales {
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 550px;
     }
 
     .sales_description {
@@ -787,14 +787,6 @@ header .menu__btn {
         text-align: center;
     }
 
-    .sales_description span {
-        font-size: 10px;
-    }
-
-    .sales button {
-        width: 10px;
-        height: 10px;
-    }
 
 
     footer {
