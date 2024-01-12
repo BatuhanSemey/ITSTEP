@@ -688,6 +688,7 @@ header .menu__btn {
 
     .menu::-webkit-scrollbar-thumb {
         background-color: #1C62CD;
+        border-radius: 10px;
     }
 
     .menu div:hover {
@@ -745,6 +746,7 @@ header .menu__btn {
 
     .popular_goods_menu::-webkit-scrollbar-thumb {
         background-color: #1C62CD;
+        border-radius: 10px;
     }
 
     .popular_goods_menu div:hover {
