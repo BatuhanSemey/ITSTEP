@@ -1071,6 +1071,7 @@ footer .icons .icons3 {
 
     .after-footer .col-md-4 {
         display: flex;
+        justify-content: center;
     }
 
     .after-footer .col-md-8 ul {
