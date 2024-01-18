@@ -1,0 +1,24 @@
+table img {
+    max-width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.carousel img {
+    object-fit: cover;
+    
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+
+}
+
+.carousel-inner {
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
