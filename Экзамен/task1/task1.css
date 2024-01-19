@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo div {
+    position: absolute;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    /* 36px */
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #1B75BB;
+}
+
+
+.btn a {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #1B75BB;
+    text-decoration: none;
+    color: #fff;
+}
+
+.block__1 {
+   
+    /* height: 100vh; */
+}
+
+.block_1_text {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 30px;
+    padding-left: 18%;
+    padding-top: 5%;
+}
+
+.block__1 h2 {
+    color: #1B75BB;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.block__1 h3 {
+    color: #081F32;
+    font-family: Gelasio;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.block__1 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.6;
+}
+
+.block__1 span {
+    color: #1B75BB;
+}
+
+.block__1 div a {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #1B75BB;
+    text-decoration: none;
+    color: #fff;
+}
